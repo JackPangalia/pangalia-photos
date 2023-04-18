@@ -33,7 +33,7 @@ const Navbar = () => {
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
             </svg>
 
-            <Link href = '#'>Add Photos</Link>
+            <Link href = '/add'>Add Photos</Link>
           </li>
         </ul>
       </nav>
