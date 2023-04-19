@@ -1,14 +1,14 @@
-import './globals.css'
-import Navbar from './components/Navbar'
+import "./globals.css";
+import Navbar from "./components/Navbar";
 
 export const metadata = {
-  title: 'Pangalia photos',
-}
+  title: "Pangalia photos",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -17,5 +17,5 @@ export default function RootLayout({
         {children}
       </body>
     </html>
-  )
+  );
 }
