@@ -4,8 +4,8 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['firebasestoreage.googleapis.com'],
-  }
-}
+    domains: ['firebasestorage.googleapis.com'],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

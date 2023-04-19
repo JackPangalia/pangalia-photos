@@ -8,12 +8,20 @@ import React, { useState } from 'react';
 const Add = () => {
   // Image upload state
   const [imageUpload, setImageUpload] = useState<File | null>(null);
+  
+  // password state
+  const [password, setPassword] = useState('');
 
   // File upload handler
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.files && event.target.files.length > 0) {
       setImageUpload(event.target.files[0])
     }
+  }
+
+  // handle password change 
+  const handlePasswordChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setPassword(event.target.value)
   }
 
   // Image upload function: used to upload image to firebase storage
@@ -44,6 +52,7 @@ const Add = () => {
             type="text" 
             className = 'w-full border-2 border-black p-2 outline-none'
             placeholder = 'Enter password' 
+            onChange = {handlePasswordChange}
           />
 
           <input 
