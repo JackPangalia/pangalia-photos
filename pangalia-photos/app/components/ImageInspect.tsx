@@ -1,6 +1,6 @@
 interface Props {
   imageUrl: string
-  isShown: boolean
+  isShown: any
 }
 
 const ImageInspect = ({imageUrl, isShown}: Props) => {
