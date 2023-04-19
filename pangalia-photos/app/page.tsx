@@ -33,7 +33,11 @@ const Home = () => {
 
       <section className="flex flex-wrap gap-5 my-5 justify-center">
         {imageUrls.map((url) => (
-          <img alt="image" src={url} className="h-[15rem]" />
+          <img
+            alt="image"
+            src={url}
+            className="h-[15rem] hover:cursor-pointer"
+          />
         ))}
       </section>
     </>
