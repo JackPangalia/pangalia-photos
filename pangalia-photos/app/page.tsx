@@ -39,14 +39,14 @@ const Home = () => {
       </section>
 
 
-      <section className="flex flex-wrap gap-5 justify-center">
+      <section className="flex flex-wrap gap-5 justify-center px-2">
         
         {imageUrls.map((url) => (
           <img
             key = {url}
             alt="image"
             src={url}
-            className="h-[15rem] hover:cursor-pointer"
+            className="h-[15rem] hover:cursor-pointer object-cover"
             onClick={() => {
               setSelectedImageUrl(url);
               setShowInspectImage(true)
