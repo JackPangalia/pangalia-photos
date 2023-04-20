@@ -35,7 +35,7 @@ const Home = () => {
   return (
     <>
       <section className="flex justify-center my-32">
-        <h2 className="text-3xl">Explore Gallery, add photos</h2>
+        <h2 className="text-xl sm:text-2xl md:text-3xl">Explore Gallery, add photos</h2>
       </section>
 
 

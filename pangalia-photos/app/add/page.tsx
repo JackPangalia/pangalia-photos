@@ -59,13 +59,13 @@ const Add = () => {
   //JSX Markup
   return (
     <>
-      <h1 className="flex justify-center my-32 text-3xl mr-auto ml-auto">
+      <h1 className="flex justify-center my-32 text-2xl mr-auto ml-auto">
         Add Your Photos
       </h1>
       
 
       <div className="flex justify-center items-center">
-        <div className="flex flex-col w-[30rem] gap-4">
+        <div className="flex flex-col w-[30rem] gap-4 mx-6">
           {/* <div className="flex" style = {isSignedIn ? {display: 'none'} : {display: 'flex'}}>
             <input
               type="password"
@@ -85,7 +85,7 @@ const Add = () => {
           <input
             //style = {isSignedIn? {display: 'block'} : {display: 'none'}}
             type="file"
-            className="w-full border-2 border-black p-2"
+            className="w-full border-2 border-black p-2 "
             placeholder="Choose a file"
             onChange={handleFileChange}
           />
