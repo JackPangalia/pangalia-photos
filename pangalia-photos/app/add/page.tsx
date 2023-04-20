@@ -37,6 +37,8 @@ const Add = () => {
         password: password,
       }),
     });
+
+    console.log('response ', response)
   };
 
   // Image upload function: used to upload image to firebase storage
