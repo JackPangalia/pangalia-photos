@@ -43,6 +43,7 @@ const Home = () => {
         
         {imageUrls.map((url) => (
           <img
+            key = {url}
             alt="image"
             src={url}
             className="h-[15rem] hover:cursor-pointer"
