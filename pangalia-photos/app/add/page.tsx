@@ -66,7 +66,7 @@ const Add = () => {
 
       <div className="flex justify-center items-center">
         <div className="flex flex-col w-[30rem] gap-4">
-          <div className="flex" style = {isSignedIn ? {display: 'none'} : {display: 'flex'}}>
+          {/* <div className="flex" style = {isSignedIn ? {display: 'none'} : {display: 'flex'}}>
             <input
               type="password"
               className="w-full border-2 border-black p-2 outline-none"
@@ -80,10 +80,10 @@ const Add = () => {
             >
               Submit Password
             </button>
-          </div>
+          </div> */}
 
           <input
-            style = {isSignedIn? {display: 'block'} : {display: 'none'}}
+            //style = {isSignedIn? {display: 'block'} : {display: 'none'}}
             type="file"
             className="w-full border-2 border-black p-2"
             placeholder="Choose a file"
@@ -91,7 +91,7 @@ const Add = () => {
           />
 
           <button
-            style = {isSignedIn? {display: 'block'} : {display: 'none'}}
+            //style = {isSignedIn? {display: 'block'} : {display: 'none'}}
             
             className="w-full border-2 border-black p-2 outline-none hover:bg-black hover:text-white"
             onClick={uploadFile}
